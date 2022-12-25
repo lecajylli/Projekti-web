@@ -1,3 +1,3 @@
 # Projekti-web
 
-This is a simple projekt im still working on
+This is a simple project im still working on
