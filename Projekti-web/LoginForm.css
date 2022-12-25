@@ -1,0 +1,216 @@
+
+  
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./TravelAgency.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form{
+    position: relative;
+    padding: 60px 15px;
+    width: 270px;
+    height: 350px;
+    box-shadow: 0px 0px 10px 0px rgb(116, 119, 114);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.form-inner{
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    top: 50%;
+    left: 50%;
+    background: #88b9c0;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+}
+.form-inner h2{
+    font-size: 25px;
+    color: #080308;
+    text-align: center;
+    padding-top: 35px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+.form-inner input{
+    display: block;
+    padding: 12px 15px;
+    width: 100%;
+    left: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1.5px solid rgb(0, 0, 0);
+    outline: none;
+    background: #ffffff;
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+}
+
+.brn{
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    outline: none;
+background: #29585f;
+border: none;
+font-size: 18px;
+border-radius: 10px;
+transition: 0.4s;
+}
+.brn:hover{
+    background: #041113;    
+}
+.form span{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.form span:nth-child(1){
+    background: #ffda05;
+    top: 0;
+    left: -48%;
+    animation: 5s span1 infinite linear;
+    animation-delay: 1s;
+    opacity: 0.5;
+}
+
+@keyframes span1{
+    0%{
+        top: -40%;
+        left: -48%;
+    }
+    25%{
+        top: -48%;
+        left: 98%;
+    }
+    50%{
+        top: 98%; 
+        left: 98%;
+    }
+    75%{
+        top: 98%;
+        left: -48%;
+    }
+    100%{
+        top: -48%;
+        left: -48%;
+    }
+    
+}
+.form span:nth-child(2){
+    background: rgb(0, 102, 255);
+    bottom: 0;
+    right: -48%;
+    animation: 5s span2 infinite linear;
+    opacity: 0.5;
+    
+}
+@keyframes span2{
+    0%{
+        bottom:  -40%;
+        right: -48%;
+    }
+    25%{
+        bottom: -48%;
+        right: 98%;
+    }
+    50%{
+        bottom: 98%; 
+        right: 98%;
+    }
+    75%{
+        bottom: 98%;
+        right: -48%;
+    }
+    100%{
+        bottom: -48%;
+        right: -48%;
+    }
+    
+}
+.form span:nth-child(3){
+    background: #800080;
+    top: 0;
+    right: -48%;
+    animation: 5s span3 infinite linear;
+    opacity: 0.5;
+   
+}
+@keyframes span3{
+    0%{
+        top: -40%;
+        left: -48%;
+    }
+    25%{
+        top: -48%;
+        left: 98%;
+    }
+    50%{
+        top: 98%; 
+        left: 98%;
+    }
+    75%{
+        top: 98%;
+        left: -48%;
+    }
+    100%{
+        top: -48%;
+        left: -48%;
+    }
+    
+}
+.form span:nth-child(4){
+    background: #ff0000;
+    bottom: 0;
+    right: -48%;
+    animation: 5s span2 infinite linear;
+    animation-delay: 1s;
+    opacity: 0.5;
+    
+}
+@keyframes span4{
+    0%{
+        bottom:  -40%;
+        right: -48%;
+    }
+    25%{
+        bottom: -48%;
+        right: 98%;
+    }
+    50%{
+        bottom: 98%; 
+        right: 98%;
+    }
+    75%{
+        bottom: 98%;
+        right: -48%;
+    }
+    100%{
+        bottom: -48%;
+        right: -48%;
+    }
+}
+
+.FS{
+
+color: rgb(19, 19, 119);
+
+}
+
